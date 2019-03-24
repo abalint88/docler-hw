@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Docler Homework - ES6 coding test - Chat app</title>
+		<link rel="shortcut icon" href="favicon.png" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<div class="window">
+			<div id="messages" class="messages">
+			</div>
+			<form action="" method="post">
+				<input id="name" type="text" placeholder="Guest"/>
+				<input id="input" type="text" placeholder="Type here to chat"/>
+				<input id="submit" type="button" value="submit" onclick="sendNewMessage();"/>
+			</form>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/socket.io.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</html>
