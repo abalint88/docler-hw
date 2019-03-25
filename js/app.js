@@ -6,8 +6,8 @@ const messages = document.getElementById("messages");
 // create a message
 class Message {
 	constructor(user, message) {
-		this.user = user || "Guest";
-		this.message = message || "default message";
+		this.user = user || "guest0001";
+		this.message = message || "Hi";
 	}
 }
 
